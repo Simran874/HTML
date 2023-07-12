@@ -5,29 +5,38 @@ body{
 .container{
     display: inline-block;
     margin: auto;
-    padding: 18px;
+    padding: 5vw;
+    width: 99.5vw;
+    height: 80vh;
     border: 2px solid black;
     border-collapse: collapse;
+    border-radius: 4px;
 }
+
 table {
     margin: auto;
     padding: 200px;
-    height: 200px;
-    width : 450px;
-    border: 2px solid black;
+    height: 20vh;
+    width : 45vw;
+    border: 1.75px solid black;
     border-collapse: collapse;
     text-align: center;
+    border-radius: 4px;
 }
+
 .input{
     border: 2px solid black;
     border-collapse: collapse;
     background-color: black;
-    margin-left: 200px;
-    margin-right: 200px; 
+    border-radius: 4px;
+    margin-left: 9.5vw;
+    margin-right: 12vw; 
     color: white;
-    width: 805px;
-    height: 50px;
+    width: 80vw;
+    height: 10vh;
     text-align: right;
+    font-size: large;
+    font-weight: bold;
 }
 
 #operator{
@@ -41,10 +50,13 @@ table {
 .button {
     display: inline-block;
     border-collapse: collapse;
-    width : 200px;
-    height: 50px;
+    border-radius: 4px;
+    width : 20vw;
+    height: 10vh;
     background-color: white;
     color: black;
+    font-size: large;
+    font-weight: bold;
 }
 
 .button:hover{
